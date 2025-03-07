@@ -65,7 +65,7 @@ export const IntegrationPanel = (integration: {
         action: 'SLACK_SEND_DIRECT_MESSAGE', parameters: {
           memberId: slackUser.id,
           message: integration.summary,
-          botName: "FriendlyBot",
+          botName: "PlaudBot",
           botIcon: ":wave:"
         }
       })

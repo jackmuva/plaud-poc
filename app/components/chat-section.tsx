@@ -20,7 +20,7 @@ const ChatSection = (user: { email: string }) => {
               id="chat-input"
               autoFocus
               name="message"
-              placeholder="Type a message"
+              placeholder="Meeting Summary"
               className="flex-1 max-h-full min-h-[500px]"
               value={chatState}
               onChange={handleInputChange}
