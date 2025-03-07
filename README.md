@@ -1,9 +1,9 @@
-# parato-nextjs
-Repository for a chatbot application (Parato) that will be used for demo purposes by the sales and marketing team.
+# Plaud-POC 
+Repository for a POC application for Plaud.ai. Application showcases ActionKit's ability to send summaries via Slack, Notion, and Gmail. Additionally there's an endpoint for a workflow to hit simulating transcripts and summaries sent from Paragon
 
 ## Integrations
-- Google Drive
-- Salesforce
+- Notion
+- Gmail 
 - Slack
 
 ## Getting Started
@@ -39,13 +39,3 @@ docker build -t <your_app_image_name> .
 ```
 docker run --rm -v $(pwd)/.env:/app/.env -v $(pwd)/config:/app/config -v $(pwd)/cache:/app/cache -p 3000:3000 parato-demo
 ```
-
-## Learn More
-
-To learn more about LlamaIndex, take a look at the following resources:
-
-- [LlamaIndex Documentation](https://docs.llamaindex.ai) - learn about LlamaIndex (Python features).
-- [LlamaIndexTS Documentation](https://ts.llamaindex.ai) - learn about LlamaIndex (Typescript features).
-
-You can check out [the LlamaIndexTS GitHub repository](https://github.com/run-llama/LlamaIndexTS) - your feedback and contributions are welcome!
-
